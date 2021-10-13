@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShovkanLab1</string>
+    <string name="title_activity_display_result">Search result</string>
+    <string name="buttonAdd_text">Add</string>
+    <string name="buttonSet_text">Set</string>
+    <string name="buttonCancel_text">Cancel</string>
+    <string name="buttonShow_text">Show</string>
+    <string name="button_text">Button</string>
+    <string name="buttonLoadData">Download</string>>
+    <string name="buttonSearchElement_text">Search</string>>
+    <string name="buttonChange_text">Change</string>>
+    <string name="buttonDelete_text">Delete</string>
+    <string name="textViewName">Name</string>
+    <string name="textViewID">ID</string>
+    <string name="textViewTrueOrFalse">Yes or not</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_ok">Ok</string>
+</resources>

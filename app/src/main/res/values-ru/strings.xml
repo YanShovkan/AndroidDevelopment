@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Первая лаба</string>
+    <string name="title_activity_display_result">Результат поиска</string>
+    <string name="buttonAdd_text" >Добавить</string>
+    <string name="buttonSet_text">Изменить</string>
+    <string name="buttonCancel_text">Отмена</string>
+    <string name="buttonShow_text" >Показать</string>
+    <string name="button_text" >Кнопка</string>
+    <string name="buttonLoadData" >Загрузить</string>>
+    <string name="buttonSearchElement_text" >Поиск</string>>
+    <string name="buttonChange_text" >Изменить</string>>
+    <string name="buttonDelete_text" >Удалить</string>
+    <string name="textViewName">Имя</string>
+    <string name="textViewID">Индекс</string>
+    <string name="textViewTrueOrFalse">Да или нет</string>
+    <string name="alert_dialog_cancel">Отмена</string>
+    <string name="alert_dialog_ok">Ок</string>
+</resources>
