@@ -1,10 +1,12 @@
-package com.example.shovkanlab1;
+package com.example.shovkanlab1.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.shovkanlab1.R;
 
 import java.util.ArrayList;
 

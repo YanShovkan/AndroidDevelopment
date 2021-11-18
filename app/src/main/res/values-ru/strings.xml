@@ -7,7 +7,8 @@
     <string name="buttonCancel_text">Отмена</string>
     <string name="buttonShow_text" >Показать</string>
     <string name="button_text" >Кнопка</string>
-    <string name="buttonLoadData" >Загрузить</string>>
+    <string name="buttonLoadData_text">Загрузить</string>
+    <string name="buttonSyncData_text">Синхронизировать</string>
     <string name="buttonSearchElement_text" >Поиск</string>>
     <string name="buttonChange_text" >Изменить</string>>
     <string name="buttonDelete_text" >Удалить</string>
@@ -16,4 +17,9 @@
     <string name="textViewTrueOrFalse">Да или нет</string>
     <string name="alert_dialog_cancel">Отмена</string>
     <string name="alert_dialog_ok">Ок</string>
+    <string name="buttonFile_text">Файловое хранилище</string>
+    <string name="buttonDB_text">База данных</string>
+    <string name="appwidget_text">Прмиер</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="app_widget_description">Описание</string>
 </resources>

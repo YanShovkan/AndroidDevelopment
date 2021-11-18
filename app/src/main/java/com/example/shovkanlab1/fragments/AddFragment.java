@@ -1,23 +1,17 @@
-package com.example.shovkanlab1;
+package com.example.shovkanlab1.fragments;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.Toast;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import com.example.shovkanlab1.Element;
+import com.example.shovkanlab1.R;
 
 public class AddFragment extends Fragment {
 
@@ -47,7 +41,7 @@ public class AddFragment extends Fragment {
 
     private void addItem() {
         if (editTextName.getText().length() != 0 && editTextID.getText().length() != 0 && editTextTrueOrFalse.getText().length() != 0) {
-            Object[] obj = { Integer.parseInt(editTextID.getText().toString()), editTextName.getText(), Boolean.parseBoolean(editTextTrueOrFalse.getText().toString()) };
+            Element obj = new Element(Integer.parseInt(editTextID.getText().toString()), editTextName.getText().toString(), editTextTrueOrFalse.getText().toString());
             ((MainFragment) getActivity().getSupportFragmentManager().findFragmentByTag("TAG_FOR_MAIN_FRAGMENT")).addItem(obj);
             editTextName.setText(null);
             getActivity().getSupportFragmentManager().popBackStack();

@@ -1,4 +1,4 @@
-package com.example.shovkanlab1;
+package com.example.shovkanlab1.fragments;
 
 import android.os.Bundle;
 
@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.shovkanlab1.Element;
+import com.example.shovkanlab1.R;
 
 public class SetFragment extends Fragment {
     Button buttonSet, buttonCancel;
@@ -53,7 +56,7 @@ public class SetFragment extends Fragment {
 
     private void setItem() {
         if (editTextName.getText().length() != 0 && editTextID.getText().length() != 0 && editTextTrueOrFalse.getText().length() != 0) {
-            Object[] obj = { Integer.parseInt(editTextID.getText().toString()), editTextName.getText(), Boolean.parseBoolean(editTextTrueOrFalse.getText().toString()) };
+            Element obj = new Element(Integer.parseInt(editTextID.getText().toString()),editTextName.getText().toString(), editTextTrueOrFalse.getText().toString());
             ((MainFragment) getActivity().getSupportFragmentManager().findFragmentByTag("TAG_FOR_MAIN_FRAGMENT")).setItem(key, obj);
             editTextName.setText(null);
             getActivity().getSupportFragmentManager().popBackStack();

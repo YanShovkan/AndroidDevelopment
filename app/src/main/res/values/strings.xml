@@ -6,7 +6,8 @@
     <string name="buttonCancel_text">Cancel</string>
     <string name="buttonShow_text">Show</string>
     <string name="button_text">Button</string>
-    <string name="buttonLoadData">Download</string>>
+    <string name="buttonLoadData_text">Download</string>
+    <string name="buttonSyncData_text">Synchronize</string>
     <string name="buttonSearchElement_text">Search</string>>
     <string name="buttonChange_text">Change</string>>
     <string name="buttonDelete_text">Delete</string>
@@ -15,4 +16,9 @@
     <string name="textViewTrueOrFalse">Yes or not</string>
     <string name="alert_dialog_cancel">Cancel</string>
     <string name="alert_dialog_ok">Ok</string>
+    <string name="buttonFile_text">FILE</string>
+    <string name="buttonDB_text">DATABASE</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
 </resources>

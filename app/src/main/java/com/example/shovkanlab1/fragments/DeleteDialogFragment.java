@@ -1,10 +1,12 @@
-package com.example.shovkanlab1;
+package com.example.shovkanlab1.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
 
 import androidx.fragment.app.DialogFragment;
+
+import com.example.shovkanlab1.R;
 
 public class DeleteDialogFragment extends DialogFragment {
 
