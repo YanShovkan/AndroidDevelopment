@@ -37,7 +37,7 @@ import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
 
-    Button buttonAdd, buttonDelete, buttonChange, buttonFindElements, buttonLoadData, buttonSyncData;
+    Button buttonAdd, buttonDelete, buttonChange, buttonFindElements, buttonLoadData;
     EditText editText;
     ListView listView;
 
@@ -45,7 +45,6 @@ public class MainFragment extends Fragment {
     private ArrayList<String> list = new ArrayList<String>();
     private ArrayList<Element> objects = new ArrayList<>();
 
-    private String filename = "";
     private Handler handler;
 
     private SharedPreferences sPref;
@@ -86,7 +85,6 @@ public class MainFragment extends Fragment {
         editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView arg0, int actionId, KeyEvent event) {
-                filename = editText.getText().toString();
                 return false;
             }
         });
@@ -97,7 +95,7 @@ public class MainFragment extends Fragment {
         buttonFindElements.setOnClickListener(v -> openResultActivity());
 
         buttonLoadData.setOnClickListener(v -> loadDataFromJson());
-        syncData();
+
     }
 
     private void openAddFragment() {

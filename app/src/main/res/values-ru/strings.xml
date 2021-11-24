@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Первая лаба</string>
+    <string name="app_name">Мобильная разработка</string>
     <string name="title_activity_display_result">Результат поиска</string>
     <string name="buttonAdd_text" >Добавить</string>
     <string name="buttonSet_text">Изменить</string>
@@ -22,4 +22,5 @@
     <string name="appwidget_text">Прмиер</string>
     <string name="add_widget">Добавить виджет</string>
     <string name="app_widget_description">Описание</string>
+    <string name="textViewTaskTitle">Задание для входа:</string>
 </resources>
